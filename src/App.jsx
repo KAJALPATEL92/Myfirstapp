@@ -3,6 +3,7 @@ import Home from './Navbar/Home'
 import About from './Navbar/About'
 import Contact from './Navbar/Contact'
 import Navbar from './Navbar/Navbar'
+import Create from './Navbar/Create'
 
 export default function App() {
   return (
@@ -13,6 +14,8 @@ export default function App() {
               <Route path='/' element={<Home/>}/>
               <Route path='/about' element={<About/>}/>
               <Route path='/contact' element={<Contact/>}/>
+              <Route path='/create' element={<Create/>}/>
+              
           </Routes>
         </BrowserRouter>
     </div>
